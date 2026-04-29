@@ -1,0 +1,38 @@
+{
+  "PortalScheme": "https",
+  "PortalHost": "portal.ucas.ac.cn",
+  "CampusAuthIp": "124.16.81.61",
+  "TreatPortalAlreadyOnlineAsSuccess": true,
+  "LoginWhenPortalOffline": true,
+  "RepairWhenInternetOfflineAndPortalOnline": false,
+  "AcId": "1",
+  "CredentialFile": ".\\credential.xml",
+  "StatusFile": ".\\status.json",
+  "StatusHtml": ".\\status.html",
+  "LogDirectory": ".\\logs",
+  "CheckIntervalSeconds": 30,
+  "RemoteActiveCheckIntervalSeconds": 10,
+  "RequestTimeoutSeconds": 8,
+  "MinSecondsBetweenLoginAttempts": 60,
+  "InternetCheckUrls": [
+    "http://www.msftconnecttest.com/connecttest.txt",
+    "http://connectivitycheck.gstatic.com/generate_204",
+    "https://www.baidu.com/"
+  ],
+  "RemoteProcessNames": [
+    "mstsc",
+    "SunloginClient",
+    "ToDesk",
+    "AnyDesk",
+    "TeamViewer",
+    "tailscale",
+    "openvpn",
+    "WireGuard",
+    "clash",
+    "v2rayN"
+  ],
+  "LocalIp": "",
+  "RunOnce": false,
+  "TestMode": false,
+  "OpenStatusOnStart": false
+}
